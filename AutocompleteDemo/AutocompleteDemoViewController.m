@@ -112,13 +112,4 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (void)dealloc {
-    [textField1 release];
-    [textField2 release];
-    [textField3 release];
-    [textField4 release];
-    [textField5 release];
-    [textField6 release];
-    [super dealloc];
-}
 @end
