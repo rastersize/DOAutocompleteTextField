@@ -139,6 +139,9 @@
 /* Begin PBXProject section */
 		E7E9794314389D2F00292AE9 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = E7E9794614389D2F00292AE9 /* Build configuration list for PBXProject "AutocompleteDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

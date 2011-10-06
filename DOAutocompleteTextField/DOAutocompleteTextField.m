@@ -38,6 +38,10 @@
 @end
 
 @implementation DOAutocompleteTextField
+{
+    UILabel *_autocompleteLabel;
+    NSString *_autoCompleteString;
+}
 
 - (id)initWithFrame:(CGRect)frame 
 {

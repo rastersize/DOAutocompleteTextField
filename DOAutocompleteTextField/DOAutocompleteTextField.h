@@ -38,10 +38,6 @@
 @end
 
 @interface DOAutocompleteTextField : UITextField
-{
-    UILabel *_autocompleteLabel;
-    NSString *_autoCompleteString;
-}
 
 - (CGRect)autocompleteRectForBounds:(CGRect)bounds;
 - (void)setAutocompleteTextColor:(UIColor*)color;
