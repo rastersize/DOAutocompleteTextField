@@ -29,7 +29,7 @@
 
 #import "DOAutocompleteTextField.h"
 
-@interface DOAutocompleteTextField (Private) 
+@interface DOAutocompleteTextField () 
 
 - (void)setupSubviews;
 - (void)_textDidChange:(NSNotification*)notification;
